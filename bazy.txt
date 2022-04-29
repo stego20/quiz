@@ -1,0 +1,24 @@
+choices 
+    questionNumber int(11)
+    isCorrect int(11)
+    choiceText varchar(100)
+
+questions
+    QuestionNumber int(11),
+    QuestionText varchar(100),
+    idimg int(100)
+
+konta
+  `id` int(11) NOT NULL,
+  `login` text NOT NULL,
+  `haslo` text NOT NULL,
+  `klasa` varchar(2) NOT NULL,
+  `grupa` int(11) NOT NULL,
+  `imie` text NOT NULL,
+  `nazwisko` text NOT NULL,
+  `admin` int(1) NOT NULL
+
+img
+    id int(100) NOT NULL,
+    imgpath varchar(200)
+

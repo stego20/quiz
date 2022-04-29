@@ -1,0 +1,5 @@
+Nrpytania	textpytania
+1	kolor czarwony
+2	kolor niebieski
+3	kolor biały
+4	kolor czarny
